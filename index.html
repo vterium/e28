@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta c
+  
+  
+  <title>Guess the number</title>
+  <script src='script.js' defer></script>
+  </head>
+  
+  <style>
+  . message, 
+  #results{
+  display: none;
+  }
+  </style>
+  </head>
+  
+  <body> 
+    <h1> Guess the number </h1>
+
+<div>
+  <label><input type='radio' value='1' name='choice' checked> 1 </label>
+  <label><input type='radio' value='2' name='choice' checked> 2 </label>
+  <label><input type='radio' value='3' name='choice' checked> 3 </label>
+  <label><input type='radio' value='4' name='choice' checked> 4 </label>
+  <label><input type='radio' value='5' name='choice' checked> 5 </label>
+  <label><input type='radio' value='6' name='choice' checked> 6 </label>
+  <label><input type='radio' value='7' name='choice' checked> 7 </label>
+  <label><input type='radio' value='8' name='choice' checked> 8 </label>
+  <label><input type='radio' value='9' name='choice' checked> 9 </label>
+  <label><input type='radio' value='10' name='choice' checked> 10 </label>
+
+</div>
+
+<button id='pick'>
+  Pick!
+</button>
+
+<div id='results'> Enter a number between 1 and 10
+
+  <div id='winMessage' class='message'> Congradulations you've guessed it! It was <span id='output'></span>
+
+  </div>
+
+  <div id='higherMessage' class='message'> Guess higher</div>
+
+  <div id='lowerMessage' class='message'> Guess lower </div>
+
+
+</div>
+
+</body>
+
+</html>
